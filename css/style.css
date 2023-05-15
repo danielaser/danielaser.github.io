@@ -336,6 +336,14 @@ img {
         font-size: 18px;
     }
 
+    .about .title {
+        font-size: 30px;
+    }
+
+    .about .description {
+        font-size: 18px;
+    }
+
     .footer h2 {
         font-size: 15px;
     }
@@ -357,6 +365,14 @@ img {
 @media screen and (max-width: 576px) {
     .header .title {
         font-size: 60px;
+    }
+
+    .about .title {
+        font-size: 25px;
+    }
+
+    .about .description {
+        font-size: 15px;
     }
 
     .fp-controlArrow.fp-next {
@@ -393,6 +409,18 @@ img {
 
     .title-container {
         font-size: 45px;
+    }
+
+    .about .information-about {
+        margin: 30% 15%;
+    }
+
+    .about .title {
+        font-size: 20px;
+    }
+
+    .about .description {
+        font-size: 12px;
     }
 
     .footer .principal-text {
