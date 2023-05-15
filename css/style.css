@@ -336,6 +336,10 @@ img {
         font-size: 18px;
     }
 
+    .about .icon-container {
+        left: 47%;
+    }
+
     .about .title {
         font-size: 30px;
     }
@@ -375,14 +379,6 @@ img {
         font-size: 15px;
     }
 
-    .fp-controlArrow.fp-next {
-        left: 100px;
-    }
-
-    .fp-controlArrow.fp-prev {
-        left: 25px;
-    }
-
 }
 
 @media screen and (max-width: 450px) {
@@ -394,6 +390,7 @@ img {
     .nav a {
         font-size: 16px;
         margin-bottom: 0;
+        margin-right: 7%;
     }
 
     .menu {
@@ -409,6 +406,10 @@ img {
 
     .title-container {
         font-size: 45px;
+    }
+
+    .about .icon-container {
+        left: 45%;
     }
 
     .about .information-about {
