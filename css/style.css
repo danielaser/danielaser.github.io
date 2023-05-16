@@ -336,6 +336,7 @@ img {
         font-size: 18px;
     }
 
+    .header .icon-container,
     .about .icon-container {
         left: 47%;
     }
@@ -408,6 +409,7 @@ img {
         font-size: 45px;
     }
 
+    .header .icon-container,
     .about .icon-container {
         left: 45%;
     }
