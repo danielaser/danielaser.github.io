@@ -164,6 +164,81 @@ h6 {
     margin-bottom: 2.5rem;
 }
 
+/* About skills section: icons and tooltip */
+
+.technologies-icon {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    font-size: 80px;
+    color: #fff;
+}
+
+.technologies-icon:hover {
+    cursor: grab;
+}
+
+.javascript-icon:hover {
+    color: #f4e866;
+}
+
+.html-icon:hover {
+    color: #ed7e53;
+}
+
+.css-icon:hover {
+    color: #5490d1;
+}
+
+.angular-icon:hover {
+    color: #eb3838;
+}
+
+.git-icon:hover {
+    color: #fc7826;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #d76cde;
+    color: #3c3a3a;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
 /* About work section */
 
 .worked-project {
