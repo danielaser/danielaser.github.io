@@ -201,17 +201,18 @@ img {
 
 .fp-controlArrow.fp-next,
 .fp-controlArrow.fp-prev {
-    top: 95%;
+    top: 52%;
 }
 
 .fp-controlArrow.fp-prev {
-    left: 15px;
-    border-width: 20px 20px 20px 0;
+    left: 4rem;
+    border-width: 25px 25px 25px 0;
     border-color: transparent #fff transparent transparent;
 }
 
 .fp-controlArrow.fp-next {
-    border-width: 20px 0 20px 20px;
+    right: 4rem;
+    border-width: 25px 0 25px 25px;
     border-color: transparent transparent transparent #fff;
 }
 
@@ -378,6 +379,11 @@ img {
 
     .about .description {
         font-size: 15px;
+    }
+
+    .fp-controlArrow.fp-next,
+    .fp-controlArrow.fp-prev {
+        top: 95%;
     }
 
 }
