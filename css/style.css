@@ -425,6 +425,10 @@ img {
         font-size: 18px;
     }
 
+    .technologies-icon {
+        font-size: 60px;
+    }
+
     .footer h2 {
         font-size: 15px;
     }
@@ -454,6 +458,10 @@ img {
 
     .about .description {
         font-size: 15px;
+    }
+
+    .technologies-icon {
+        font-size: 40px;
     }
 
     .fp-controlArrow.fp-next,
