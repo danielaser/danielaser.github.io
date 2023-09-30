@@ -268,6 +268,29 @@ img {
     border-radius: 15px;
 }
 
+.see-button {
+    display: flex;
+    justify-content: center;
+}
+
+.seeMore-button {
+    border-radius: 20px;
+    height: 50px;
+    width: 130px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    transition-duration: 0.4s;
+    background: linear-gradient(90deg, rgba(49, 27, 58, 1) 0%, rgba(93, 53, 173, 1) 50%, rgba(180, 37, 232, 1) 100%);
+}
+
+.seeMore-button:hover {
+    box-shadow: 0 0.3em 2em 0.1em hsl(270, 59%, 64%);
+    cursor: pointer;
+}
+
 /* Slide */
 
 .fp-controlArrow.fp-next,
