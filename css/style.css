@@ -246,8 +246,7 @@ h6 {
     justify-content: center;
 }
 
-.angular-project,
-.react-project {
+.portfolioImg-project {
     display: flex;
     width: 30%;
     text-decoration: none;
@@ -256,11 +255,8 @@ h6 {
     margin: 0 20px;
 }
 
-
-.angular-project:hover,
-.react-project:hover,
-.angular-project:focus,
-.react-project:focus {
+.portfolioImg-project:hover,
+.portfolioImg-project:focus {
     box-shadow: 0 0.3em 3em 0.3em #d76cde;
     transform: translateY(-0.25em);
     border-radius: 15px;
