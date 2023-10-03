@@ -145,10 +145,6 @@ h6 {
     background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../media/about-image-two.jpg');
 }
 
-.about article:nth-child(3) {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../media/about-image-three.jpg');
-}
-
 .about .information-about {
     margin: 0 20%;
 }
@@ -239,7 +235,80 @@ h6 {
     opacity: 1;
 }
 
-/* About work section */
+/* Slide */
+
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    top: 52%;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 4rem;
+    border-width: 25px 25px 25px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 4rem;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.fp-controlArrow.fp-prev:hover {
+    border-color: transparent #ba6cde transparent transparent;
+}
+
+.fp-controlArrow.fp-next:hover {
+    border-color: transparent transparent transparent #ba6cde;
+}
+
+.about .icon-container {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 49%;
+    font-size: 40px;
+    animation: up-down 1s ease infinite;
+}
+
+/* Animations */
+
+@keyframes up-down {
+    0% {
+        transform: translateY(20px);
+    }
+
+    25% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+/* MyProjects section */
+
+.myProjects {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../media/about-image-three.jpg');
+}
+
+.myProjects .information-about {
+    margin: 0 20%;
+}
+
+.myProjects .title {
+    font-size: 35px;
+    margin-bottom: 2rem;
+    font-family: monospace, sans-serif;
+}
+
+.myProjects .description {
+    font-size: 22px;
+    margin-bottom: 2.5rem;
+}
+
+/* MyProjets work section */
 
 .worked-project {
     display: flex;
@@ -291,56 +360,13 @@ img {
     cursor: pointer;
 }
 
-/* Slide */
-
-.fp-controlArrow.fp-next,
-.fp-controlArrow.fp-prev {
-    top: 52%;
-}
-
-.fp-controlArrow.fp-prev {
-    left: 4rem;
-    border-width: 25px 25px 25px 0;
-    border-color: transparent #fff transparent transparent;
-}
-
-.fp-controlArrow.fp-next {
-    right: 4rem;
-    border-width: 25px 0 25px 25px;
-    border-color: transparent transparent transparent #fff;
-}
-
-.fp-controlArrow.fp-prev:hover {
-    border-color: transparent #ba6cde transparent transparent;
-}
-
-.fp-controlArrow.fp-next:hover {
-    border-color: transparent transparent transparent #ba6cde;
-}
-
-.about .icon-container {
+.myProjects .icon-container {
     position: absolute;
     z-index: 99;
     bottom: 3%;
     left: 49%;
     font-size: 40px;
     animation: up-down 1s ease infinite;
-}
-
-/* Animations */
-
-@keyframes up-down {
-    0% {
-        transform: translateY(20px);
-    }
-
-    25% {
-        transform: translateY(0px);
-    }
-
-    100% {
-        transform: translateY(20px);
-    }
 }
 
 /* Footer */
@@ -538,6 +564,18 @@ img {
     }
 
     .about .description {
+        font-size: 12px;
+    }
+
+    .myProjects .information-about {
+        margin: 30% 15%;
+    }
+
+    .myProjects .title {
+        font-size: 20px;
+    }
+
+    .myProjects .description {
         font-size: 12px;
     }
 
