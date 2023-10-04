@@ -10,7 +10,7 @@ const sectionPage = new fullpage('#fullpage', {
     navigation: true,
     menu: '#menu',
     anchors: ['home', 'about', 'myProjects', 'contact'],
-    navigationTooltips: ['Home', 'About', 'MyProjects', 'Contact'],
+    navigationTooltips: ['Home', 'About', 'My Projects', 'Contact'],
     showActiveTooltip: false,
     sectionsColor: ['#000', '#c2c2c2', '#000'],
     verticalCentered: true,
