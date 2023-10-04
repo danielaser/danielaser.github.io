@@ -105,14 +105,14 @@ h6 {
 /* Header */
 
 .header {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../media/home-image.jpg);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../media/home-image.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .header .title-container {
     text-align: center;
-    position: relative;
+    position: absolute;
     z-index: 99;
 }
 
@@ -128,6 +128,16 @@ h6 {
     left: 49%;
     font-size: 40px;
     animation: up-down 1s ease infinite;
+}
+
+/* Particles animation */
+
+.particles {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
 }
 
 /* About section */
