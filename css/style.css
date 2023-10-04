@@ -256,12 +256,14 @@ h6 {
     left: 4rem;
     border-width: 25px 25px 25px 0;
     border-color: transparent #fff transparent transparent;
+    animation: left-right 4s ease infinite;
 }
 
 .fp-controlArrow.fp-next {
     right: 4rem;
     border-width: 25px 0 25px 25px;
     border-color: transparent transparent transparent #fff;
+    animation: right-left 4s ease infinite;
 }
 
 .fp-controlArrow.fp-prev:hover {
@@ -270,6 +272,26 @@ h6 {
 
 .fp-controlArrow.fp-next:hover {
     border-color: transparent transparent transparent #ba6cde;
+}
+
+@keyframes right-left {
+    12% {
+        transform: translatex(20px);
+    }
+
+    25% {
+        transform: translatex(0px);
+    }
+}
+
+@keyframes left-right {
+    12% {
+        transform: translatex(-20px);
+    }
+
+    25% {
+        transform: translatex(0px);
+    }
 }
 
 .about .icon-container {
