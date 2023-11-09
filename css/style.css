@@ -180,6 +180,18 @@ h6 {
     color: #fff;
 }
 
+.react-icon {
+    margin-top: -5px;
+}
+
+.fa-react {
+    background-color: #fff;
+    border-radius: 40px;
+    color: #0d2e51;
+    font-size: 70px;
+    border: 5px solid #fff;
+}
+
 .technologies-icon:hover {
     cursor: grab;
 }
@@ -194,6 +206,11 @@ h6 {
 
 .css-icon:hover {
     color: #5490d1;
+}
+
+.fa-react:hover {
+    background:#61dbfb;
+    border-color: #61dbfb;
 }
 
 .angular-icon:hover {
